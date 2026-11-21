@@ -1,4 +1,0 @@
-# Paste extra wallets here, one per line: name,chain,address,kind,min_usd
-# chain: eth, base, arbitrum, optimism, etherlink, gnosis, polygon, bsc, tron
-# kind: hot (casino wallet or bankroll) or parked (stolen/frozen money). min_usd is optional.
-name,chain,address,kind,min_usd
