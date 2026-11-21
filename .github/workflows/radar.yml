@@ -1,0 +1,48 @@
+name: radar
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"   # every 10 minutes (public repo: free and unlimited)
+  workflow_dispatch: {}       # run by hand from the Actions tab
+
+permissions:
+  contents: read
+
+concurrency:
+  group: radar
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -q -r requirements.txt
+      # state lives in the Actions cache, never in the repo
+      - name: Restore state
+        uses: actions/cache/restore@v4
+        with:
+          path: state.json
+          key: radar-state-${{ github.run_id }}
+          restore-keys: radar-state-
+      - name: Run radar
+        env:
+          RADAR_QUIET: "1"   # logs show counts only, never names, addresses or alert text
+          RADAR_STATE_KEY: ${{ secrets.RADAR_STATE_KEY }}   # encrypts the saved state
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          RADAR_PRIVATE_YAML: ${{ secrets.RADAR_PRIVATE_YAML }}
+          RADAR_WALLETS_CSV: ${{ secrets.RADAR_WALLETS_CSV }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}   # optional: AI check of each update
+        run: python radar.py
+      - name: Save state
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: state.json
+          key: radar-state-${{ github.run_id }}
