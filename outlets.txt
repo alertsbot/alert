@@ -1,0 +1,551 @@
+# Outlets read through their own RSS feeds. One per line: domain or feed URL, then tags.
+# Tags: security, crypto, igaming (these also alert on gambling stories without a brand name), cc:XX = country.
+# A domain is enough: the radar finds its feed. Dead ones show as missing in the digest count.
+
+# ---------- crypto security and hack trackers
+https://www.web3isgoinggreat.com/feed.xml security
+https://slowmist.medium.com/feed security
+https://medium.com/feed/immunefi security
+https://blockthreat.substack.com/feed security
+rekt.news security
+https://www.chainalysis.com/blog/feed/ security
+https://www.elliptic.co/blog/rss.xml security
+https://www.trmlabs.com/resources/blog/rss.xml security
+https://blog.cyvers.ai/rss.xml security
+https://www.certik.com/resources/blog/rss.xml security
+https://hacken.io/feed/ security
+https://www.halborn.com/blog/rss.xml security
+https://quillaudits.medium.com/feed security
+https://medium.com/feed/@peckshield security
+https://medium.com/feed/@BlockSecTeam security
+https://www.bleepingcomputer.com/feed/ security
+https://krebsonsecurity.com/feed/ security
+https://thehackernews.com/feeds/posts/default security
+https://www.darkreading.com/rss.xml security
+https://therecord.media/feed security
+https://www.securityweek.com/feed/ security
+https://cyberscoop.com/feed/ security
+https://www.theregister.com/security/headlines.atom security
+https://news.ycombinator.com/rss security
+
+# ---------- crypto news
+https://www.coindesk.com/arc/outboundfeeds/rss/ crypto
+https://cointelegraph.com/rss crypto
+https://decrypt.co/feed crypto
+https://www.theblock.co/rss.xml crypto
+https://www.dlnews.com/arc/outboundfeeds/rss/ crypto
+https://protos.com/feed/ crypto
+https://thedefiant.io/feed crypto
+https://bitcoinmagazine.com/.rss/full/ crypto
+https://cryptoslate.com/feed/ crypto
+https://cryptonews.com/news/feed/ crypto
+https://u.today/rss crypto
+https://beincrypto.com/feed/ crypto
+https://crypto.news/feed/ crypto
+https://www.newsbtc.com/feed/ crypto
+https://bitcoinist.com/feed/ crypto
+https://cryptopotato.com/feed/ crypto
+https://coinjournal.net/feed/ crypto
+https://blockworks.co/feed crypto
+https://www.coinbureau.com/feed/ crypto
+https://dailyhodl.com/feed/ crypto
+https://zycrypto.com/feed/ crypto
+https://coingape.com/feed/ crypto
+https://ambcrypto.com/feed/ crypto
+https://www.cryptopolitan.com/feed/ crypto
+https://watcher.guru/news/feed crypto
+https://unchainedcrypto.com/feed/ crypto
+https://www.coinspeaker.com/feed/ crypto
+https://www.crypto-reporter.com/feed/ crypto
+https://coinpedia.org/feed/ crypto
+https://www.livebitcoinnews.com/feed/ crypto
+https://forkast.news/feed/ crypto
+https://www.btc-echo.de/feed/ crypto cc:DE
+https://www.cryptoast.fr/feed/ crypto cc:FR
+https://journalducoin.com/feed/ crypto cc:FR
+https://es.cointelegraph.com/rss crypto cc:ES
+https://br.cointelegraph.com/rss crypto cc:BR
+https://www.criptonoticias.com/feed/ crypto cc:ES
+https://livecoins.com.br/feed/ crypto cc:BR
+https://portaldobitcoin.uol.com.br/feed/ crypto cc:BR
+https://www.coinkolik.com/feed/ crypto cc:TR
+https://koinbulteni.com/feed crypto cc:TR
+https://forklog.com/feed crypto cc:RU
+https://bits.media/rss/news/ crypto cc:RU
+https://www.cryptonomist.ch/feed/ crypto cc:IT
+https://jp.cointelegraph.com/rss crypto cc:JP
+https://coinpost.jp/?feed=rss2 crypto cc:JP
+https://www.blockmedia.co.kr/feed crypto cc:KR
+https://www.tokenpost.kr/rss crypto cc:KR
+https://www.panewslab.com/rss.xml crypto cc:CN
+https://www.techflowpost.com/rss.aspx crypto cc:CN
+https://www.coinlive.com/rss crypto
+https://www.siamblockchain.com/feed/ crypto cc:TH
+https://bitcoinaddict.org/feed/ crypto cc:TH
+https://tapchibitcoin.io/feed crypto cc:VN
+https://coinvestasi.com/feed crypto cc:ID
+https://www.coinbase.com/blog/rss crypto
+
+# ---------- iGaming, sweepstakes and prediction market trade press
+https://www.casino.org/news/feed/ igaming
+https://sbcnews.co.uk/feed/ igaming
+https://sbcamericas.com/feed/ igaming
+https://igamingbusiness.com/feed/ igaming
+https://www.gamblinginsider.com/rss igaming
+https://next.io/feed/ igaming
+https://www.legalsportsreport.com/feed/ igaming
+https://www.playusa.com/feed/ igaming
+https://www.covers.com/rss/industry igaming
+https://www.sportshandle.com/feed/ igaming
+https://www.cdcgaming.com/feed/ igaming
+https://www.ggbmagazine.com/feed/ igaming
+https://www.yogonet.com/international/rss/ igaming
+https://www.yogonet.com/latinoamerica/rss/ igaming cc:MX
+https://europeangaming.eu/portal/feed/ igaming
+https://www.egr.global/intel/feed/ igaming
+https://www.igamingtoday.com/feed/ igaming
+https://www.inside-asian-gaming.com/feed/ igaming
+https://www.asgam.com/feed igaming
+https://www.ggrasia.com/feed/ igaming
+https://agbrief.com/feed/ igaming
+https://www.calvinayre.com/feed/ igaming
+https://focusgn.com/feed igaming
+https://affpapa.com/feed/ igaming
+https://sigma.world/feed/ igaming
+https://www.gamingintelligence.com/feed/ igaming
+https://igamingexpress.com/feed/ igaming
+https://www.intergameonline.com/rss igaming
+https://www.gamblingnews.com/feed/ igaming
+https://www.gambling.com/news/rss igaming
+https://www.lcb.org/news/feed igaming
+https://www.vip-grinders.com/feed/ igaming
+https://www.sweepsy.com/feed/ igaming
+https://www.sweepsy.com/news/feed/ igaming
+https://www.businessofigaming.com/feed/ igaming
+https://gamblinglore.com/feed igaming
+https://www.bonus.com/feed/ igaming
+https://www.onlinegambling.com/news/feed/ igaming
+https://www.pokernews.com/rss.php igaming
+https://www.pokerfuse.com/feed/ igaming
+https://www.igamingbrazil.com/feed/ igaming cc:BR
+https://www.bnldata.com.br/feed/ igaming cc:BR
+https://www.gmb.com.br/feed/ igaming cc:BR
+https://www.casinonewsdaily.com/feed/ igaming
+https://www.prediction-markets.com/feed/ igaming
+https://www.defirate.com/feed/ igaming
+https://rg.org/feed igaming
+https://www.sccgmanagement.com/feed/ igaming
+https://www.curacaochronicle.com/rss igaming cc:CW
+https://www.gamblingcompliance.com/rss igaming
+https://www.cardplayer.com/rss/news igaming
+https://www.tribuna.com/en/feed/ igaming
+https://www.bettingexpert.com/feed igaming
+https://www.casinobeats.com/feed/ igaming
+https://www.spillemyndigheden.dk/en/news/rss igaming cc:DK
+
+# ---------- regulators and courts (news feeds)
+https://www.gamblingcommission.gov.uk/news/rss igaming cc:GB
+https://www.acma.gov.au/rss/media-releases igaming cc:AU
+https://www.cftc.gov/RSS/RSSGP/rssgp.xml igaming cc:US
+https://www.sec.gov/news/pressreleases.rss crypto cc:US
+https://www.justice.gov/news/rss crypto cc:US
+https://www.fbi.gov/feeds/national-press-releases/rss.xml crypto cc:US
+https://www.europol.europa.eu/rss/news crypto cc:EU
+https://www.fca.org.uk/news/rss.xml crypto cc:GB
+
+# ---------- general and business news, English
+reuters.com cc:US
+https://feeds.bbci.co.uk/news/world/rss.xml cc:GB
+https://feeds.bbci.co.uk/news/technology/rss.xml cc:GB
+https://feeds.bbci.co.uk/news/business/rss.xml cc:GB
+https://www.theguardian.com/uk/technology/rss cc:GB
+https://www.theguardian.com/business/rss cc:GB
+https://www.theguardian.com/society/gambling/rss cc:GB
+https://www.independent.co.uk/news/uk/rss cc:GB
+https://www.dailymail.co.uk/news/index.rss cc:GB
+https://www.telegraph.co.uk/news/rss.xml cc:GB
+https://www.thesun.co.uk/news/feed/ cc:GB
+https://www.mirror.co.uk/news/?service=rss cc:GB
+https://www.standard.co.uk/rss cc:GB
+https://news.sky.com/feeds/rss/home.xml cc:GB
+https://www.irishtimes.com/arc/outboundfeeds/feed-irish-news/ cc:IE
+https://www.rte.ie/feeds/rss/?index=/news/ cc:IE
+https://www.thejournal.ie/feed/ cc:IE
+https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml cc:US
+https://rss.nytimes.com/services/xml/rss/nyt/Business.xml cc:US
+https://feeds.a.dj.com/rss/RSSMarketsMain.xml cc:US
+https://feeds.washingtonpost.com/rss/business cc:US
+https://www.cnbc.com/id/100003114/device/rss/rss.html cc:US
+https://www.cnbc.com/id/10000664/device/rss/rss.html cc:US
+https://abcnews.go.com/abcnews/topstories cc:US
+https://feeds.nbcnews.com/nbcnews/public/news cc:US
+https://www.cbsnews.com/latest/rss/main cc:US
+https://www.npr.org/rss/rss.php?id=1001 cc:US
+https://www.axios.com/feeds/feed.rss cc:US
+https://www.politico.com/rss/politicopicks.xml cc:US
+https://thehill.com/feed/ cc:US
+https://apnews.com/hub/apf-topnews?output=rss cc:US
+https://www.wired.com/feed/rss cc:US
+https://www.theverge.com/rss/index.xml cc:US
+https://techcrunch.com/feed/ cc:US
+https://arstechnica.com/feed/ cc:US
+https://www.engadget.com/rss.xml cc:US
+https://www.vice.com/en/rss cc:US
+https://www.vox.com/rss/index.xml cc:US
+https://www.businessinsider.com/rss cc:US
+https://fortune.com/feed/ cc:US
+https://www.forbes.com/money/feed/ cc:US
+https://www.bloomberg.com/politics/feeds/site.xml cc:US
+https://www.espn.com/espn/rss/news cc:US
+https://www.si.com/rss/si_topstories.rss cc:US
+https://www.deseret.com/arc/outboundfeeds/rss/ cc:US
+https://www.ksl.com/rss/news cc:US
+https://www.nj.com/arc/outboundfeeds/rss/?outputType=xml cc:US
+https://www.cbc.ca/webfeed/rss/rss-topstories cc:CA
+https://www.cbc.ca/webfeed/rss/rss-technology cc:CA
+https://globalnews.ca/feed/ cc:CA
+https://www.theglobeandmail.com/arc/outboundfeeds/rss/category/business/ cc:CA
+https://www.abc.net.au/news/feed/51120/rss.xml cc:AU
+https://www.smh.com.au/rss/feed.xml cc:AU
+https://www.theage.com.au/rss/feed.xml cc:AU
+https://www.news.com.au/content-feeds/latest-news-national/ cc:AU
+https://www.theguardian.com/australia-news/rss cc:AU
+https://www.nzherald.co.nz/arc/outboundfeeds/rss/curated/78/?outputType=xml cc:NZ
+https://www.rnz.co.nz/rss/national.xml cc:NZ
+https://timesofindia.indiatimes.com/rssfeedstopstories.cms cc:IN
+https://www.thehindu.com/news/national/feeder/default.rss cc:IN
+https://indianexpress.com/feed/ cc:IN
+https://www.hindustantimes.com/feeds/rss/india-news/rssfeed.xml cc:IN
+https://economictimes.indiatimes.com/rssfeedstopstories.cms cc:IN
+https://www.ndtv.com/rss cc:IN
+https://www.livemint.com/rss/news cc:IN
+https://www.moneycontrol.com/rss/latestnews.xml cc:IN
+https://www.dawn.com/feeds/home cc:PK
+https://www.thedailystar.net/frontpage/rss.xml cc:BD
+https://www.inquirer.net/fullfeed cc:PH
+https://www.philstar.com/rss/headlines cc:PH
+https://www.rappler.com/feed/ cc:PH
+https://www.gmanetwork.com/news/rss/news/ cc:PH
+https://www.straitstimes.com/news/singapore/rss.xml cc:SG
+https://www.channelnewsasia.com/rssfeeds/8395986 cc:SG
+https://www.scmp.com/rss/91/feed cc:HK
+https://www.thestar.com.my/rss/News cc:MY
+https://www.malaymail.com/feed/rss/ cc:MY
+https://www.bangkokpost.com/rss/data/topstories.xml cc:TH
+https://www.nationthailand.com/rss cc:TH
+https://e.vnexpress.net/rss/news.rss cc:VN
+https://www.thejakartapost.com/feed cc:ID
+https://www.japantimes.co.jp/feed/ cc:JP
+https://www3.nhk.or.jp/rss/news/cat0.xml cc:JP
+https://www.koreaherald.com/common/rss_xml.php?ct=102 cc:KR
+https://en.yna.co.kr/RSS/news.xml cc:KR
+https://www.taipeitimes.com/xml/index.rss cc:TW
+https://www.aljazeera.com/xml/rss/all.xml cc:QA
+https://www.arabnews.com/rss.xml cc:SA
+https://www.thenationalnews.com/arc/outboundfeeds/rss/?outputType=xml cc:AE
+https://www.timesofisrael.com/feed/ cc:IL
+https://www.jpost.com/rss/rssfeedsfrontpage.aspx cc:IL
+https://www.dailysabah.com/rss cc:TR
+https://www.hurriyetdailynews.com/rss cc:TR
+https://www.news24.com/news24/topstories/rss cc:ZA
+https://www.iol.co.za/cmlink/1.640 cc:ZA
+https://punchng.com/feed/ cc:NG
+https://www.vanguardngr.com/feed/ cc:NG
+https://www.premiumtimesng.com/feed cc:NG
+https://www.nation.africa/kenya/rss.xml cc:KE
+https://www.standardmedia.co.ke/rss/headlines.php cc:KE
+https://www.myjoyonline.com/feed/ cc:GH
+https://www.theeastafrican.co.ke/rss cc:KE
+https://www.ghanaweb.com/GhanaHomePage/rss/news.xml cc:GH
+https://www.maltatoday.com.mt/rss/news cc:MT
+https://timesofmalta.com/rss cc:MT
+https://www.gibraltarchronicle.com/feed/ cc:GI
+https://www.iomtoday.co.im/rss cc:IM
+https://cyprus-mail.com/feed/ cc:CY
+https://www.ekathimerini.com/rss cc:GR
+https://www.euronews.com/rss cc:EU
+https://www.politico.eu/feed/ cc:EU
+https://www.dw.com/en/rss/rss.xml cc:DE
+https://www.france24.com/en/rss cc:FR
+https://www.thelocal.se/feed/ cc:SE
+https://www.thelocal.de/feed/ cc:DE
+https://www.thelocal.es/feed/ cc:ES
+https://www.thelocal.it/feed/ cc:IT
+https://www.thelocal.fr/feed/ cc:FR
+https://www.thelocal.dk/feed/ cc:DK
+https://www.thelocal.no/feed/ cc:NO
+https://www.expats.cz/rss cc:CZ
+https://english.radio.cz/rss cc:CZ
+https://www.brusselstimes.com/feed cc:BE
+https://www.dutchnews.nl/feed/ cc:NL
+https://www.swissinfo.ch/eng/rss cc:CH
+https://www.rferl.org/api/zrqiteuuir cc:EU
+https://www.kyivindependent.com/rss/ cc:UA
+https://www.themoscowtimes.com/rss/news cc:RU
+https://www.buenosairesherald.com/feed cc:AR
+https://mexiconewsdaily.com/feed/ cc:MX
+https://www.batimes.com.ar/feed cc:AR
+https://www.ticotimes.net/feed cc:CR
+
+# ---------- Czech and Slovak
+https://www.seznamzpravy.cz/rss cc:CZ
+https://www.idnes.cz/rss cc:CZ
+https://servis.idnes.cz/rss.aspx?c=zpravodaj cc:CZ
+https://www.novinky.cz/rss cc:CZ
+https://ct24.ceskatelevize.cz/rss/hlavni-zpravy cc:CZ
+https://www.irozhlas.cz/rss/irozhlas cc:CZ
+https://www.lupa.cz/rss/clanky/ cc:CZ
+https://www.e15.cz/rss cc:CZ
+https://www.denik.cz/rss/zpravy.html cc:CZ
+https://www.blesk.cz/rss cc:CZ
+https://www.aktualne.cz/rss/ cc:CZ
+https://www.lidovky.cz/rss.aspx cc:CZ
+https://www.respekt.cz/rss cc:CZ
+https://www.forbes.cz/feed/ cc:CZ
+https://cc.cz/feed/ cc:CZ
+https://www.antiyoutuber.cz/rss cc:CZ
+https://domacibulvar.cz/feed/ cc:CZ
+https://www.sme.sk/rss-title cc:SK
+https://dennikn.sk/feed/ cc:SK
+https://www.aktuality.sk/rss/ cc:SK
+https://www.pravda.sk/rss/xml/ cc:SK
+
+# ---------- German
+https://www.spiegel.de/schlagzeilen/index.rss cc:DE
+https://www.tagesschau.de/xml/rss2/ cc:DE
+https://www.zeit.de/news/index cc:DE
+https://www.faz.net/rss/aktuell/ cc:DE
+https://www.sueddeutsche.de/news/rss cc:DE
+https://www.welt.de/feeds/latest.rss cc:DE
+https://www.bild.de/rssfeeds/vw-alles/vw-alles-26970192,dzbildplus=true,sort=1,teaserbildmobil=false,view=rss2.bild.xml cc:DE
+https://www.heise.de/rss/heise-atom.xml cc:DE
+https://www.handelsblatt.com/contentexport/feed/top-themen cc:DE
+https://www.n-tv.de/rss cc:DE
+https://www.focus.de/rss cc:DE
+https://www.derstandard.at/rss cc:AT
+https://www.krone.at/nachrichten/rss.html cc:AT
+https://orf.at/stories/rss cc:AT
+https://www.diepresse.com/rss/ cc:AT
+https://www.nzz.ch/recent.rss cc:CH
+https://www.srf.ch/news/bnf/rss/1646 cc:CH
+https://www.20min.ch/rss/rss.tmpl?type=channel&get=1 cc:CH
+
+# ---------- Dutch, Belgian, Nordic
+https://feeds.nos.nl/nosnieuwsalgemeen cc:NL
+https://www.nu.nl/rss/Algemeen cc:NL
+https://www.telegraaf.nl/rss cc:NL
+https://www.ad.nl/rss.xml cc:NL
+https://www.volkskrant.nl/voorpagina/rss.xml cc:NL
+https://www.rtlnieuws.nl/rss.xml cc:NL
+https://www.hln.be/rss.xml cc:BE
+https://www.vrt.be/vrtnws/nl.rss.articles.xml cc:BE
+https://www.lesoir.be/rss/81853/cible_principale cc:BE
+https://www.svt.se/nyheter/rss.xml cc:SE
+https://www.dn.se/rss/ cc:SE
+https://www.aftonbladet.se/rss.xml cc:SE
+https://www.expressen.se/rss/nyheter cc:SE
+https://www.svd.se/feed/articles.rss cc:SE
+https://www.nrk.no/toppsaker.rss cc:NO
+https://www.vg.no/rss/feed/ cc:NO
+https://www.aftenposten.no/rss cc:NO
+https://www.e24.no/rss cc:NO
+https://www.dr.dk/nyheder/service/feeds/allenyheder cc:DK
+https://politiken.dk/rss/senestenyt.rss cc:DK
+https://www.berlingske.dk/content/rss cc:DK
+https://yle.fi/rss/uutiset/tuoreimmat cc:FI
+https://www.hs.fi/rss/tuoreimmat.xml cc:FI
+https://www.iltalehti.fi/rss/uutiset.xml cc:FI
+https://www.mbl.is/feeds/fp/ cc:IS
+https://www.err.ee/rss cc:EE
+https://www.lsm.lv/rss/ cc:LV
+https://www.lrt.lt/naujienos?rss cc:LT
+
+# ---------- French, Italian, Spanish, Portuguese
+https://www.lemonde.fr/rss/une.xml cc:FR
+https://www.lefigaro.fr/rss/figaro_actualites.xml cc:FR
+https://www.liberation.fr/arc/outboundfeeds/rss/?outputType=xml cc:FR
+https://www.francetvinfo.fr/titres.rss cc:FR
+https://www.20minutes.fr/feeds/rss-une.xml cc:FR
+https://www.bfmtv.com/rss/news-24-7/ cc:FR
+https://www.lesechos.fr/rss/rss_une.xml cc:FR
+https://www.leparisien.fr/arc/outboundfeeds/rss/une.xml cc:FR
+https://www.ouest-france.fr/rss/une cc:FR
+https://www.lapresse.ca/actualites/rss cc:CA
+https://www.ledevoir.com/rss/manchettes.xml cc:CA
+https://www.rts.ch/info/?format=rss/news cc:CH
+https://www.ansa.it/sito/notizie/topnews/topnews_rss.xml cc:IT
+https://www.repubblica.it/rss/homepage/rss2.0.xml cc:IT
+https://xml2.corriereobjects.it/rss/homepage.xml cc:IT
+https://www.ilsole24ore.com/rss/italia.xml cc:IT
+https://www.lastampa.it/rss cc:IT
+https://www.ilfattoquotidiano.it/feed/ cc:IT
+https://www.agipronews.it/rss cc:IT
+https://www.agimeg.it/feed cc:IT
+https://www.gioconews.it/rss cc:IT
+https://www.jamma.tv/feed cc:IT
+https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/portada cc:ES
+https://www.elmundo.es/rss/portada.xml cc:ES
+https://www.abc.es/rss/feeds/abcPortada.xml cc:ES
+https://www.lavanguardia.com/rss/home.xml cc:ES
+https://www.20minutos.es/rss/ cc:ES
+https://www.elconfidencial.com/rss/ cc:ES
+https://www.europapress.es/rss/rss.aspx cc:ES
+https://www.eldiario.es/rss/ cc:ES
+https://www.elmundo.es/rss/economia.xml cc:ES
+https://www.infobae.com/feeds/rss/ cc:AR
+https://www.clarin.com/rss/lo-ultimo/ cc:AR
+https://www.lanacion.com.ar/arc/outboundfeeds/rss/ cc:AR
+https://www.eluniversal.com.mx/rss.xml cc:MX
+https://www.milenio.com/rss cc:MX
+https://www.excelsior.com.mx/rss.xml cc:MX
+https://www.jornada.com.mx/rss/edicion.xml cc:MX
+https://www.eltiempo.com/rss/colombia.xml cc:CO
+https://www.semana.com/arc/outboundfeeds/rss/ cc:CO
+https://www.emol.com/rss/ cc:CL
+https://www.latercera.com/arc/outboundfeeds/rss/ cc:CL
+https://elcomercio.pe/arc/outboundfeeds/rss/ cc:PE
+https://www.eluniverso.com/arc/outboundfeeds/rss/ cc:EC
+https://www.nacion.com/arc/outboundfeeds/rss/ cc:CR
+https://www.crhoy.com/feed/ cc:CR
+https://www.prensalibre.com/feed/ cc:GT
+https://www.elnuevodia.com/arc/outboundfeeds/rss/ cc:PR
+https://g1.globo.com/rss/g1/ cc:BR
+https://feeds.folha.uol.com.br/emcimadahora/rss091.xml cc:BR
+https://www.estadao.com.br/arc/outboundfeeds/feeds/rss/sections/brasil/ cc:BR
+https://www.uol.com.br/feed cc:BR
+https://www.metropoles.com/feed cc:BR
+https://www.cnnbrasil.com.br/feed/ cc:BR
+https://exame.com/feed/ cc:BR
+https://www.infomoney.com.br/feed/ cc:BR
+https://www.poder360.com.br/feed/ cc:BR
+https://www.publico.pt/rss cc:PT
+https://www.jn.pt/rss cc:PT
+https://observador.pt/feed/ cc:PT
+https://expresso.pt/rss cc:PT
+https://www.rtp.pt/noticias/rss cc:PT
+
+# ---------- Central and Eastern Europe, Turkey, Russia, Ukraine
+https://www.tvn24.pl/najnowsze.xml cc:PL
+https://www.rmf24.pl/feed cc:PL
+https://wiadomosci.onet.pl/.feed cc:PL
+https://www.money.pl/rss/ cc:PL
+https://www.bankier.pl/rss/wiadomosci.xml cc:PL
+https://www.wprost.pl/rss cc:PL
+https://www.polsatnews.pl/rss/wszystkie.xml cc:PL
+https://telex.hu/rss cc:HU
+https://index.hu/24ora/rss/ cc:HU
+https://hvg.hu/rss cc:HU
+https://www.digi24.ro/rss cc:RO
+https://www.hotnews.ro/rss cc:RO
+https://www.g4media.ro/feed cc:RO
+https://www.novinite.com/rss cc:BG
+https://www.index.hr/rss cc:HR
+https://www.jutarnji.hr/feed cc:HR
+https://www.b92.net/info/rss/vesti.xml cc:RS
+https://www.24ur.com/rss cc:SI
+https://www.kathimerini.gr/rss cc:GR
+https://www.protothema.gr/rss/ cc:GR
+https://www.hurriyet.com.tr/rss/anasayfa cc:TR
+https://www.sabah.com.tr/rss/anasayfa.xml cc:TR
+https://www.milliyet.com.tr/rss/rssnew/gundemrss.xml cc:TR
+https://www.sozcu.com.tr/feed/ cc:TR
+https://www.ntv.com.tr/gundem.rss cc:TR
+https://www.cumhuriyet.com.tr/rss cc:TR
+https://t24.com.tr/rss cc:TR
+https://www.haberturk.com/rss cc:TR
+https://www.aa.com.tr/tr/rss/default?cat=guncel cc:TR
+https://www.dunya.com/rss cc:TR
+https://lenta.ru/rss cc:RU
+https://www.kommersant.ru/RSS/news.xml cc:RU
+https://www.rbc.ru/rss cc:RU
+https://meduza.io/rss/all cc:RU
+https://www.interfax.ru/rss.asp cc:RU
+https://www.pravda.com.ua/rss/ cc:UA
+https://www.ukrinform.ua/rss/block-lastnews cc:UA
+https://nv.ua/rss/all.xml cc:UA
+https://www.unian.ua/rss cc:UA
+https://www.tut.by/rss cc:BY
+https://www.kapital.kz/rss cc:KZ
+https://24.kg/rss/ cc:KG
+
+# ---------- Asia local languages
+https://www.thairath.co.th/rss/news cc:TH
+https://www.matichon.co.th/feed cc:TH
+https://www.khaosod.co.th/feed cc:TH
+https://www.dailynews.co.th/feed/ cc:TH
+https://www.bangkokbiznews.com/rss cc:TH
+https://www.prachachat.net/feed cc:TH
+https://www.sanook.com/news/rss/ cc:TH
+https://www.amarintv.com/rss cc:TH
+https://www.pptvhd36.com/rss cc:TH
+https://www.thaipbs.or.th/rss cc:TH
+https://vnexpress.net/rss/tin-moi-nhat.rss cc:VN
+https://tuoitre.vn/rss/tin-moi-nhat.rss cc:VN
+https://thanhnien.vn/rss/home.rss cc:VN
+https://dantri.com.vn/rss/home.rss cc:VN
+https://www.kompas.com/rss cc:ID
+https://www.detik.com/rss cc:ID
+https://www.cnnindonesia.com/nasional/rss cc:ID
+https://www.antaranews.com/rss/terkini.xml cc:ID
+https://www.tempo.co/rss cc:ID
+https://www.liputan6.com/rss cc:ID
+https://www.sinarharian.com.my/rssFeed/211 cc:MY
+https://www.hmetro.com.my/rss cc:MY
+https://www.abs-cbn.com/feed cc:PH
+https://www.asahi.com/rss/asahi/newsheadlines.rdf cc:JP
+https://news.yahoo.co.jp/rss/topics/top-picks.xml cc:JP
+https://mainichi.jp/rss/etc/mainichi-flash.rss cc:JP
+https://www.nikkei.com/rss/ cc:JP
+https://www.sankei.com/rss/ cc:JP
+https://www.yna.co.kr/rss/news.xml cc:KR
+https://www.hani.co.kr/rss/ cc:KR
+https://www.chosun.com/arc/outboundfeeds/rss/ cc:KR
+https://www.mk.co.kr/rss/30000001/ cc:KR
+https://news.ltn.com.tw/rss/all.xml cc:TW
+https://www.cna.com.tw/rss cc:TW
+https://udn.com/rssfeed/news/2/6638 cc:TW
+https://news.rthk.hk/rthk/ch/rss/ cc:HK
+https://www.hk01.com/rss cc:HK
+https://www.macaodaily.com/rss cc:MO
+https://www.zaobao.com.sg/rss/realtime/china cc:SG
+https://www.bhaskar.com/rss-feed/1061/ cc:IN
+https://www.amarujala.com/rss/breaking-news.xml cc:IN
+https://navbharattimes.indiatimes.com/rssfeedsdefault.cms cc:IN
+https://www.jagran.com/rss/news/national.xml cc:IN
+https://www.aajtak.in/rssfeeds/?id=home cc:IN
+https://www.prothomalo.com/feed/ cc:BD
+https://www.geo.tv/rss/1 cc:PK
+
+# ---------- Middle East and Africa local
+https://www.ynet.co.il/Integration/StoryRss2.xml cc:IL
+https://www.haaretz.co.il/srv/htz---all-articles cc:IL
+https://www.alarabiya.net/.mrss/ar.xml cc:AE
+https://www.emaratalyoum.com/rss cc:AE
+https://www.youm7.com/rss/SectionRss?SectionID=65 cc:EG
+https://www.masrawy.com/rss/feed/25/ cc:EG
+https://www.hespress.com/feed cc:MA
+https://www.thecitizen.co.tz/rss cc:TZ
+https://www.monitor.co.ug/rss cc:UG
+https://www.dailymaverick.co.za/dmrss/ cc:ZA
+https://techcabal.com/feed/ cc:NG
+https://techcrunch.com/category/fintech/feed/ cc:US
+
+# ---------- forums (Reddit new posts)
+https://www.reddit.com/r/onlinegambling/new/.rss forum
+https://www.reddit.com/r/gambling/new/.rss forum
+https://www.reddit.com/r/sportsbook/new/.rss forum
+https://www.reddit.com/r/sweepstakescasinos/new/.rss forum
+https://www.reddit.com/r/stakeus/new/.rss forum
+https://www.reddit.com/r/CryptoCurrency/new/.rss forum
+https://www.reddit.com/r/ethereum/new/.rss forum
+https://www.reddit.com/r/Polymarket/new/.rss forum
+https://www.reddit.com/r/Kalshi/new/.rss forum
+https://www.reddit.com/r/CasinoGuru/new/.rss forum
+
+# ---------- court dockets (CourtListener searches; any brand hit is HIGH)
+https://www.courtlistener.com/feed/search/?q=%22Stake.us%22+OR+%22Sweepsteaks%22+OR+%22Easygo%22 court
+https://www.courtlistener.com/feed/search/?q=Kalshi court
+https://www.courtlistener.com/feed/search/?q=Polymarket court
+https://www.courtlistener.com/feed/search/?q=%22sweepstakes+casino%22 court
+https://www.courtlistener.com/feed/search/?q=Roobet+OR+Rollbit+OR+%22BC.Game%22+OR+Shuffle.com court
+https://www.courtlistener.com/feed/search/?q=%22crypto+casino%22 court
